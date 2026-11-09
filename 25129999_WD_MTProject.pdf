@@ -1,0 +1,176 @@
+%PDF-1.4
+%ту╧╙
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.0 842.0] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 7311 >>
+stream
+1.00 w 0.145 0.388 0.921 rg 0.00 836.00 595.00 6.00 re f
+BT /F2 18.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 40.00 804.00 Tm (Web Development Mid-Term Project) Tj ET
+BT /F2 10.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 40.00 788.00 Tm (CSS Enhancement & Design Decisions Write-up) Tj ET
+BT /F2 9.50 Tf 0.059 0.090 0.165 rg 1 0 0 1 380.00 806.00 Tm (Student: Akshay Hegde) Tj ET
+BT /F2 9.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 380.00 792.00 Tm (Roll No: 25129999) Tj ET
+BT /F1 8.50 Tf 0.392 0.455 0.545 rg 1 0 0 1 380.00 778.00 Tm (Date: November 2026) Tj ET
+1.00 w 0.886 0.910 0.941 RG 40.00 770.00 m 555.00 770.00 l S
+1.20 w 0.749 0.859 0.996 RG 0.937 0.965 1.000 rg 40.00 706.00 515.00 54.00 re B
+BT /F2 7.50 Tf 0.118 0.251 0.686 rg 1 0 0 1 54.00 744.00 Tm (LIVE WEBSITE LINK \(GITHUB PAGES\):) Tj ET
+BT /F2 9.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 54.00 730.00 Tm (https://devaka207.github.io/resume-website/) Tj ET
+BT /F2 7.50 Tf 0.118 0.251 0.686 rg 1 0 0 1 310.00 744.00 Tm (GITHUB REPOSITORY LINK:) Tj ET
+BT /F2 9.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 310.00 730.00 Tm (https://github.com/devaka207/resume-website) Tj ET
+1.00 w 0.145 0.388 0.921 rg 40.00 680.00 4.00 13.00 re f
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 682.00 Tm (1. Executive Summary & Objective) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 666.00 Tm (The objective of this assignment was to apply modern CSS fundamentals to transform an initial semantic HTML personal) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 654.80 Tm (resume into an executive-grade, fully responsive portfolio website. The site showcases my professional journey as an) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 643.60 Tm (AI FinTech Founder & Product Strategist \(Founder & CEO @ FinnDot, Ex-CEO @ Anomapro - acquired by Watad Group,) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 632.40 Tm (Ex-Product Manager @ Chara, and IIM Bangalore FinTech alumnus\). The implementation centers on establishing high visual) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 621.20 Tm (hierarchy, responsive grid positioning, custom CSS variables, and fluid readability across devices.) Tj ET
+1.00 w 0.145 0.388 0.921 rg 40.00 584.00 4.00 13.00 re f
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 586.00 Tm (2. Key Improvements & CSS Concepts Applied) Tj ET
+0.80 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 498.00 250.00 74.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 558.00 Tm (A. Typography & Readability) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 50.00 545.00 Tm (Integrated Google Fonts \(Plus Jakarta Sans for prominent) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 50.00 535.00 Tm (headings and Inter for crisp reading\). Used fluid clamp\(\)) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 50.00 525.00 Tm (font sizing, balanced line-heights \(1.6\), and) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 50.00 515.00 Tm (letter-spacing.) Tj ET
+0.80 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 305.00 498.00 250.00 74.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 315.00 558.00 Tm (B. Color System & CSS Variables) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 315.00 545.00 Tm (Defined comprehensive custom properties \(:root\) for an) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 315.00 535.00 Tm (Executive Tech palette: Deep Slate \(#0f172a\), Brand Blue) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 315.00 525.00 Tm (\(#2563eb\), Cyan Accent \(#0ea5e9\), and soft slate surfaces) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 315.00 515.00 Tm (with WCAG contrast.) Tj ET
+0.80 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 414.00 250.00 74.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 474.00 Tm (C. Sticky Navigation & Blur) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 50.00 461.00 Tm (Positioned fixed/sticky top navigation \(position: sticky;) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 50.00 451.00 Tm (top: 0\) with translucent frosted glass \(backdrop-filter:) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 50.00 441.00 Tm (blur\(12px\)\), active scroll spy, and animated underline) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 50.00 431.00 Tm (transitions.) Tj ET
+0.80 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 305.00 414.00 250.00 74.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 315.00 474.00 Tm (D. Flexbox & CSS Grid Structure) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 315.00 461.00 Tm (Employed Flexbox for navigation alignment, action) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 315.00 451.00 Tm (buttons, and stat counters. Constructed responsive 2 & 3) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 315.00 441.00 Tm (column card grids using repeat\(auto-fit, minmax\(...\)\) for) Tj ET
+BT /F1 7.80 Tf 0.278 0.333 0.416 rg 1 0 0 1 315.00 431.00 Tm (automatic reflow.) Tj ET
+1.00 w 0.145 0.388 0.921 rg 40.00 390.00 4.00 13.00 re f
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 392.00 Tm (3. Efficient CSS Selectors & Architecture) Tj ET
+BT /F2 9.00 Tf 0.145 0.388 0.921 rg 1 0 0 1 40.00 374.00 Tm (Х) Tj ET
+BT /F2 8.50 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 374.00 Tm (Element Selectors: ) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 139.20 374.00 Tm (Applied universal box-sizing reset \(*, *::before, *::after { box-sizing: border-box; }\) and reset) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 139.20 363.00 Tm (base headings, body text, lists, and inputs to create predictable box modeling.) Tj ET
+BT /F2 9.00 Tf 0.145 0.388 0.921 rg 1 0 0 1 40.00 349.00 Tm (Х) Tj ET
+BT /F2 8.50 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 349.00 Tm (Class Selectors: ) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 129.60 349.00 Tm (Built modular, reusable component classes \(.card, .btn, .btn-primary, .badge-pill, .grid-2, .grid-3\)) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 129.60 338.00 Tm (ensuring clean maintainability and preventing styling duplication.) Tj ET
+BT /F2 9.00 Tf 0.145 0.388 0.921 rg 1 0 0 1 40.00 324.00 Tm (Х) Tj ET
+BT /F2 8.50 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 324.00 Tm (ID Selectors: ) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 115.20 324.00 Tm (Targeted primary page landmarks \(#hero, #about, #ventures, #experience, #skills, #education, #contact\)) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 115.20 313.00 Tm (facilitating smooth in-page navigation anchors with offset scroll padding.) Tj ET
+BT /F2 9.00 Tf 0.145 0.388 0.921 rg 1 0 0 1 40.00 299.00 Tm (Х) Tj ET
+BT /F2 8.50 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 299.00 Tm (Attribute & Pseudo-Selectors: ) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 192.00 299.00 Tm (Styled form fields using input[type='email'], hover states \(:hover\), active navigation) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 192.00 288.00 Tm (\(:active, .active-nav\), and timeline connectors using ::before and ::after) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 192.00 277.00 Tm (pseudo-elements.) Tj ET
+0.80 w 0.886 0.910 0.941 RG 40.00 45.00 m 555.00 45.00 l S
+BT /F1 8.00 Tf 0.584 0.647 0.722 rg 1 0 0 1 40.00 32.00 Tm (Web Development Mid-Term Project Х Personal Resume Enhancement) Tj ET
+BT /F2 8.00 Tf 0.584 0.647 0.722 rg 1 0 0 1 500.00 32.00 Tm (Page 1 of 2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.0 842.0] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 7204 >>
+stream
+1.00 w 0.145 0.388 0.921 rg 0.00 836.00 595.00 6.00 re f
+BT /F2 13.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 40.00 808.00 Tm (Web Development Mid-Term Project) Tj ET
+BT /F2 9.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 40.00 794.00 Tm (Section-by-Section Architecture & Design Decisions) Tj ET
+BT /F1 8.50 Tf 0.392 0.455 0.545 rg 1 0 0 1 420.00 800.00 Tm (Roll No: 25129999 Х Akshay Hegde) Tj ET
+1.00 w 0.886 0.910 0.941 RG 40.00 784.00 m 555.00 784.00 l S
+1.00 w 0.145 0.388 0.921 rg 40.00 762.00 4.00 13.00 re f
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 764.00 Tm (4. Section-by-Section Architecture & Design Decisions) Tj ET
+0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 696.00 515.00 54.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 738.00 Tm (Hero Section \(#hero\)) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 726.00 Tm (Combines a strong personal value statement, quote, and live status badge with an interactive floating Profile Card. Styled) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 715.80 Tm (with subtle background radial gradients, CSS keyframe pulse animation, and an avatar with multi-stop linear gradients.) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 705.60 Tm (Call-to-action buttons feature tactile lift on hover \(transform: translateY\(-2px\)\).) Tj ET
+0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 636.00 515.00 54.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 678.00 Tm (About & Pillars \(#about\)) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 666.00 Tm (Features a 3-column CSS Grid highlighting core domains: AI FinTech, Fraud Intelligence, and 0-to-1 Product Strategy. Each) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 655.80 Tm (card incorporates color-tinted SVG icon wrappers, clear typography, and subtle border-color shifts upon mouse hover.) Tj ET
+0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 576.00 515.00 54.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 618.00 Tm (Ventures & Products \(#ventures\)) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 606.00 Tm (Dedicated showcase for flagship initiatives: FinnDot \(Active AI FinTech venture\), Anomapro \(Fraud intelligence company) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 595.80 Tm (acquired by Watad Group\), and Chara Technologies \(DeepTech EV mobility\). Custom badges \(.status-acquired in purple\) visually) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 585.60 Tm (communicate venture outcomes.) Tj ET
+0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 516.00 515.00 54.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 558.00 Tm (Experience Timeline \(#experience\)) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 546.00 Tm (Built a chronological timeline using CSS absolute positioning for circular node markers and a connecting linear-gradient) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 535.80 Tm (vertical bar \(::before\). Career roles at FinnDot, Watad Group, Chara, Sirma, and APPZUI are organized with quantitative) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 525.60 Tm (metrics, tags, and date pills.) Tj ET
+0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 456.00 515.00 54.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 498.00 Tm (Skills & Competencies \(#skills\)) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 486.00 Tm (Presents strategic business development and customer data intelligence using customized progress meters with gradient) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 475.80 Tm (progress bars. Accompanied by a flex-wrapping tag cloud \(.cloud-badge\) with interactive pill-shaped hover effects.) Tj ET
+0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 396.00 515.00 54.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 438.00 Tm (Education & Credentials \(#education\)) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 426.00 Tm (Features the prestigious Executive FinTech Programme at IIM Bangalore and B.E. at DSCE Bangalore, accompanied by verified) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 415.80 Tm (badges for Google Certified Associate Android Developer, MATLAB Onramp, and published scientific research on Assistive) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 405.60 Tm (Devices.) Tj ET
+0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 336.00 515.00 54.00 re B
+BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 378.00 Tm (Contact & Interactive Form \(#contact\)) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 366.00 Tm (A split-column layout providing direct communication pills \(Email, LinkedIn, GitHub\) alongside a responsive form. Form) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 355.80 Tm (inputs feature custom focus rings \(box-shadow: 0 0 0 3px rgba\(37,99,235,0.15\)\) and accessible contrast ratios.) Tj ET
+1.00 w 0.145 0.388 0.921 rg 40.00 314.00 4.00 13.00 re f
+BT /F2 11.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 316.00 Tm (5. Responsive Media Queries & GitHub Hosting) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 300.00 Tm (Mobile-First Responsiveness: Implemented three distinct responsive breakpoints using CSS Media Queries: @media \(max-width:) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 288.80 Tm (992px\) collapses side-by-side hero and form layouts; @media \(max-width: 768px\) transforms the desktop navbar into a) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 277.60 Tm (slide-down mobile drawer toggle and collapses 2/3 column grids into single-column flows; and @media \(max-width: 480px\)) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 266.40 Tm (stacks CTA button clusters and stats vertically for ergonomic mobile tap access.) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 246.00 Tm (GitHub Pages Hosting: The repository is configured at https://github.com/devaka207/resume-website and served live via) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 234.80 Tm (GitHub Pages at https://devaka207.github.io/resume-website/. The repository maintains clean separation between HTML) Tj ET
+BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 223.60 Tm (semantic structure \(index.html\), modular styling \(styles.css\), and interactive behavior \(script.js\).) Tj ET
+1.00 w 0.655 0.922 0.765 RG 0.941 0.988 0.957 rg 40.00 160.00 515.00 48.00 re B
+BT /F2 8.00 Tf 0.024 0.373 0.275 rg 1 0 0 1 52.00 192.00 Tm (SUBMISSION CHECKLIST & VERIFICATION) Tj ET
+BT /F1 8.00 Tf 0.059 0.255 0.188 rg 1 0 0 1 52.00 178.00 Tm ([X] Live Link included   [X] GitHub Repo included   [X] Design decisions explained   [X] Responsive CSS validated) Tj ET
+BT /F2 7.80 Tf 0.024 0.373 0.275 rg 1 0 0 1 52.00 166.00 Tm (File Name: 25129999_WD_MTProject.pdf   |   Roll Number: 25129999   |   Submission Mode: Computer Browser PDF) Tj ET
+0.80 w 0.886 0.910 0.941 RG 40.00 45.00 m 555.00 45.00 l S
+BT /F1 8.00 Tf 0.584 0.647 0.722 rg 1 0 0 1 40.00 32.00 Tm (Web Development Mid-Term Project Х Personal Resume Enhancement) Tj ET
+BT /F2 8.00 Tf 0.584 0.647 0.722 rg 1 0 0 1 500.00 32.00 Tm (Page 2 of 2) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000224 00000 n 
+0000000326 00000 n 
+0000000431 00000 n 
+0000000526 00000 n 
+0000000686 00000 n 
+0000008049 00000 n 
+0000008210 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+15467
+%%EOF

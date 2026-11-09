@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submission Report | WD_MTProject | Akshay Hegde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* Document Base & Print Settings */
+    @page {
+      size: A4 portrait;
+      margin: 1.5cm 1.5cm 1.5cm 1.5cm;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: #1e293b;
+      background-color: #f8fafc;
+      line-height: 1.5;
+      font-size: 9.5pt;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .report-wrapper {
+      max-width: 820px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+    }
+
+    /* Header Bar */
+    .doc-header {
+      border-bottom: 2px solid #2563eb;
+      padding-bottom: 14px;
+      margin-bottom: 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    .doc-title-group h1 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 19pt;
+      color: #0f172a;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+    }
+
+    .doc-subtitle {
+      font-size: 10.5pt;
+      color: #2563eb;
+      font-weight: 600;
+      margin-top: 3px;
+    }
+
+    .student-meta {
+      text-align: right;
+      font-size: 9pt;
+      color: #475569;
+    }
+
+    .student-meta strong {
+      color: #0f172a;
+    }
+
+    /* Links Highlight Box */
+    .links-box {
+      background: #eff6ff;
+      border: 1.5px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 12px 16px;
+      margin-bottom: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .link-group-title {
+      font-size: 7.5pt;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: #1e40af;
+      letter-spacing: 0.06em;
+      margin-bottom: 2px;
+    }
+
+    .link-url {
+      font-size: 9.5pt;
+      color: #2563eb;
+      font-weight: 600;
+      word-break: break-all;
+      text-decoration: underline;
+    }
+
+    /* Section Headings */
+    h2 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 12pt;
+      color: #0f172a;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 4px;
+      margin-top: 16px;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    h2::before {
+      content: '';
+      display: inline-block;
+      width: 4px;
+      height: 14px;
+      background-color: #2563eb;
+      border-radius: 2px;
+    }
+
+    h3 {
+      font-size: 10pt;
+      font-weight: 700;
+      color: #1e293b;
+      margin-top: 8px;
+      margin-bottom: 4px;
+    }
+
+    p {
+      margin-bottom: 8px;
+      color: #334155;
+      text-align: justify;
+    }
+
+    /* Grids & Cards */
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .card {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 10px 12px;
+    }
+
+    .card-title {
+      font-size: 9pt;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+
+    .card-text {
+      font-size: 8.5pt;
+      color: #475569;
+      line-height: 1.45;
+    }
+
+    /* Bullet Lists */
+    ul {
+      margin-left: 18px;
+      margin-bottom: 10px;
+    }
+
+    li {
+      margin-bottom: 4px;
+      color: #334155;
+      line-height: 1.45;
+    }
+
+    li strong {
+      color: #0f172a;
+    }
+
+    /* Code & Tag Pill */
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 8.5pt;
+      background-color: #f1f5f9;
+      color: #0f172a;
+      padding: 1px 4px;
+      border-radius: 4px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .page-break {
+      page-break-before: always;
+      break-before: page;
+      margin-top: 24px;
+      padding-top: 20px;
+      border-top: 1px dashed #cbd5e1;
+    }
+
+    @media print {
+      body {
+        background-color: #ffffff;
+      }
+      .report-wrapper {
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        max-width: 100%;
+      }
+      .page-break {
+        border-top: none;
+        margin-top: 0;
+        padding-top: 0;
+      }
+      .no-print {
+        display: none;
+      }
+    }
+
+    .print-banner {
+      background-color: #1e293b;
+      color: #ffffff;
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    .print-btn {
+      background-color: #2563eb;
+      color: #ffffff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .print-btn:hover {
+      background-color: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="report-wrapper">
+
+    <!-- Interactive Banner for browser printing -->
+    <div class="print-banner no-print">
+      <div>
+        <strong>Mid-Term Project Submission Document</strong> (1–2 Pages PDF)
+      </div>
+      <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+    </div>
+
+    <!-- Document Header -->
+    <header class="doc-header">
+      <div class="doc-title-group">
+        <h1>Web Development Mid-Term Project</h1>
+        <div class="doc-subtitle">CSS Enhancement & Design Decisions Write-up</div>
+      </div>
+      <div class="student-meta">
+        <div><strong>Student:</strong> Akshay Hegde</div>
+        <div><strong>Roll No:</strong> <span style="color:#2563eb; font-weight:700;">[Your Roll Number]</span></div>
+        <div><strong>Subject:</strong> Web Development (WD_MTProject)</div>
+        <div><strong>Date:</strong> November 2026</div>
+      </div>
+    </header>
+
+    <!-- Submission Mandatory Links Box -->
+    <div class="links-box">
+      <div>
+        <div class="link-group-title">Live Website Link (GitHub Pages)</div>
+        <a class="link-url" href="https://devaka207.github.io/resume-website/" target="_blank">https://devaka207.github.io/resume-website/</a>
+      </div>
+      <div>
+        <div class="link-group-title">GitHub Repository Link</div>
+        <a class="link-url" href="https://github.com/devaka207/resume-website" target="_blank">https://github.com/devaka207/resume-website</a>
+      </div>
+    </div>
+
+    <!-- Section 1: Objective & Overview -->
+    <h2>1. Executive Summary & Objective</h2>
+    <p>
+      The objective of this assignment was to apply advanced CSS fundamentals to transform an initial semantic HTML personal resume into an executive-level, visually engaging, responsive portfolio website. The site highlights my professional background as an AI FinTech Founder & Product Strategist (Founder & CEO at FinnDot, Ex-CEO at Anomapro — acquired by Watad Group, and IIM Bangalore FinTech alumnus). The enhancements focus on modern visual hierarchy, fluid typography, consistent brand theming, and responsive multi-column layouts using CSS Flexbox and Grid.
+    </p>
+
+    <!-- Section 2: Key CSS Improvements Made -->
+    <h2>2. Key Improvements & CSS Concepts Applied</h2>
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-title">A. Typography & Readability</div>
+        <div class="card-text">
+          Imported Google Fonts (<strong>Plus Jakarta Sans</strong> for punchy headings and <strong>Inter</strong> for body copy). Applied fluid font sizing using <code>clamp()</code>, structured line-heights (1.6 for body, 1.25 for headers), and letter spacing to elevate corporate aesthetic.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">B. Modern CSS Variables & Color Palette</div>
+        <div class="card-text">
+          Defined comprehensive CSS Custom Properties in <code>:root</code>. Established an "Executive Tech" palette: Deep Slate (<code>#0f172a</code>), Brand Royal Blue (<code>#2563eb</code>), Sky Accent (<code>#0ea5e9</code>), and soft slate card surfaces (<code>#ffffff</code>, <code>#f8fafc</code>) ensuring WCAG-compliant contrast.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">C. Sticky Navigation & Frosted Glass</div>
+        <div class="card-text">
+          Implemented a top sticky navigation bar using <code>position: sticky; top: 0;</code> with backdrop blur (<code>backdrop-filter: blur(12px)</code>), animated hover underlines via <code>::after</code> pseudo-elements, and responsive mobile hamburger drawer.
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title">D. Flexbox & CSS Grid Layouts</div>
+        <div class="card-text">
+          Replaced inline/block flows with modern Flexbox for headers, badge chips, and hero CTA clusters. Implemented CSS Grid with <code>grid-template-columns: repeat(auto-fit, minmax(...))</code> for responsive 2-column and 3-column card arrangements.
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3: Selectors Organization -->
+    <h2>3. Efficient CSS Selector Strategy</h2>
+    <ul>
+      <li><strong>Element Selectors:</strong> Normalized global elements (<code>html</code>, <code>body</code>, <code>h1-h6</code>, <code>p</code>, <code>button</code>, <code>input</code>) with a clean universal box-sizing reset (<code>box-sizing: border-box</code>).</li>
+      <li><strong>Class Selectors:</strong> Modular, reusable utility and component classes (e.g., <code>.card</code>, <code>.btn</code>, <code>.btn-primary</code>, <code>.badge-pill</code>, <code>.grid-2</code>, <code>.grid-3</code>) enforcing strict DRY principles.</li>
+      <li><strong>ID Selectors:</strong> Targeted major semantic landmark sections (<code>#hero</code>, <code>#about</code>, <code>#ventures</code>, <code>#experience</code>, <code>#skills</code>, <code>#education</code>, <code>#contact</code>) for smooth page jump anchors.</li>
+      <li><strong>Attribute Selectors & Pseudo-States:</strong> Styled form controls via <code>input[type="email"]</code>, focus rings with <code>:focus</code>, interactive states via <code>:hover</code> and <code>:active</code>, and glowing timeline badges using <code>::before</code>.</li>
+    </ul>
+
+    <!-- Page Break for 2-page document layout -->
+    <div class="page-break"></div>
+
+    <!-- Section 4: Section-by-Section Architecture & Design Decisions -->
+    <h2>4. Section Architecture & Design Decisions</h2>
+
+    <div class="card" style="margin-bottom: 10px;">
+      <div class="card-title">Hero Section (#hero) — Positioning & Visual Engagement</div>
+      <div class="card-text">
+        Features a two-column flex layout pairing an introductory value proposition with a floating interactive Profile Card. Includes a pulsing status indicator badge (CSS <code>@keyframes pulse</code>), a multi-stop gradient avatar circle, and primary/secondary CTA buttons with subtle elevation shadows (<code>box-shadow</code> and <code>transform: translateY(-2px)</code>).
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 10px;">
+      <div class="card-title">About & Flagship Ventures (#about, #ventures) — Feature Grid & Status Badges</div>
+      <div class="card-text">
+        Organized into 3-column CSS Grid cards showcasing key domain pillars (AI FinTech, Fraud Intelligence, 0-to-1 Product Strategy) and flagship ventures (FinnDot, Anomapro M&A exit, Chara EV mobility). Each card utilizes light color-tinted icon containers, dedicated status pills (e.g. <code>.status-acquired</code> in violet), and structured impact highlights.
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 10px;">
+      <div class="card-title">Experience Timeline (#experience) — Relative & Absolute Positioning</div>
+      <div class="card-text">
+        Constructed a chronological timeline connecting career milestones (FinnDot, Watad Group / Anomapro, Chara, Sirma, APPZUI). Utilized a central vertical line created with a CSS pseudo-element <code>::before</code>, combined with absolutely positioned marker dots that expand and glow on card hover for enhanced interactive feedback.
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 10px;">
+      <div class="card-title">Skills & Competencies (#skills) — Animated Progress Meters & Cloud Tags</div>
+      <div class="card-text">
+        Showcases two core categories (Business Strategy & FinTech Customer Data Intelligence) using customized progress tracks with linear gradient fills. Below, a flex-wrapping tag cloud (<code>.badge-container</code>) displays methodologies with rounded pill borders and smooth interactive hover inversion.
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 10px;">
+      <div class="card-title">Education & Credentials (#education) — Academic Hierarchy & Certifications</div>
+      <div class="card-text">
+        Highlights the Executive FinTech Programme at IIM Bangalore and Bachelor of Engineering at DSCE with gold/blue distinction badges, alongside verified credentials (Google Certified Associate Android Developer, MATLAB Onramp, and published research on Assistive Devices).
+      </div>
+    </div>
+
+    <div class="card" style="margin-bottom: 10px;">
+      <div class="card-title">Contact Section (#contact) — Interactive Form Controls & Focus States</div>
+      <div class="card-text">
+        Dual-column card featuring direct communication channels (Email, LinkedIn, GitHub, Bengaluru location) and a functional contact form. Form inputs employ CSS attribute selectors, custom active focus rings (<code>border-color: var(--border-focus)</code>, <code>box-shadow: 0 0 0 3px rgba(37,99,235,0.15)</code>), and clear placeholder styling.
+      </div>
+    </div>
+
+    <!-- Section 5: Responsive Strategy & Hosting -->
+    <h2>5. Responsive Strategy & GitHub Hosting</h2>
+    <p>
+      <strong>Mobile Responsiveness:</strong> Built with a mobile-first philosophy using CSS Media Queries (<code>@media (max-width: 992px)</code>, <code>@media (max-width: 768px)</code>, <code>@media (max-width: 480px)</code>). On mobile displays, navigation seamlessly transitions into a toggleable slide drawer, multi-column grids collapse into comfortable single-column stacks, and touch targets remain well above the 44px minimum for optimal usability.
+    </p>
+    <p>
+      <strong>Hosting & Deployment:</strong> The complete source code is maintained in the GitHub repository at <code>https://github.com/devaka207/resume-website</code> and hosted live via <strong>GitHub Pages</strong> with SSL encryption enabled.
+    </p>
+
+    <!-- Footer Note -->
+    <div style="margin-top: 18px; padding-top: 10px; border-top: 1px solid #e2e8f0; font-size: 8pt; color: #64748b; display: flex; justify-content: space-between;">
+      <span>Mid-Term Project Submission • WD_MTProject</span>
+      <span>RollNo_WD_MTProject.pdf • Page 2 of 2</span>
+    </div>
+
+  </div>
+
+</body>
+</html>
