@@ -431,6 +431,14 @@ button, input, textarea {
   font-size: clamp(1.1rem, 2vw, 1.35rem);
   font-weight: 600;
   color: var(--text-main);
+  margin-bottom: var(--space-xs);
+}
+
+.hero-quote {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--color-brand);
+  font-weight: 500;
   margin-bottom: var(--space-md);
 }
 
@@ -828,6 +836,12 @@ button, input, textarea {
   margin-bottom: 0.35rem;
 }
 
+.badge-success {
+  background-color: rgba(16, 185, 129, 0.12);
+  color: #065f46;
+  border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
 .badge-secondary {
   background-color: rgba(100, 116, 139, 0.1);
   color: var(--text-muted);
@@ -1008,7 +1022,8 @@ button, input, textarea {
 /* --------------------------------------------------------------------------
    9. Featured Strategic Projects (Grid & Flexbox Card Layout)
    -------------------------------------------------------------------------- */
-.projects-section {
+.projects-section,
+.ventures-section {
   background-color: var(--bg-page);
 }
 
@@ -1041,6 +1056,18 @@ button, input, textarea {
   color: #065f46;
   padding: 0.15rem 0.5rem;
   border-radius: var(--radius-pill);
+}
+
+.status-acquired {
+  background-color: rgba(139, 92, 246, 0.12);
+  color: #6d28d9;
+}
+
+.project-role-tag {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-brand);
+  margin-bottom: var(--space-xs);
 }
 
 .project-title {
@@ -1093,15 +1120,18 @@ button, input, textarea {
 }
 
 /* --------------------------------------------------------------------------
-   10. Education Section
+   10. Education & Certifications Section
    -------------------------------------------------------------------------- */
 .education-section {
   background-color: var(--bg-surface);
 }
 
-.education-container {
+.education-grid {
   max-width: 900px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
 }
 
 .edu-card {
@@ -1155,6 +1185,12 @@ button, input, textarea {
   border-radius: var(--radius-pill);
 }
 
+.badge-prestigious {
+  background-color: rgba(245, 158, 11, 0.12);
+  color: #b45309;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
 .edu-description {
   font-size: 0.95rem;
   color: var(--text-body);
@@ -1162,20 +1198,48 @@ button, input, textarea {
   line-height: 1.6;
 }
 
-.edu-highlights {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
+/* Certifications & Research Styles */
+.cert-card {
+  margin-top: var(--space-xs);
 }
 
-.highlight-item {
-  font-size: 0.8125rem;
-  font-weight: 600;
+.cert-title {
+  font-size: 1.2rem;
+  margin-bottom: var(--space-lg);
   color: var(--text-main);
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-md);
+}
+
+.cert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-md);
+  padding: var(--space-md);
   background-color: var(--bg-surface-alt);
-  padding: 0.35rem 0.75rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border-light);
+}
+
+.cert-badge-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.cert-name {
+  font-size: 0.925rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 2px;
+}
+
+.cert-issuer {
+  font-size: 0.8rem;
+  color: var(--text-muted);
 }
 
 /* --------------------------------------------------------------------------
