@@ -22,13 +22,13 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.0 842.0] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 8 0 R >>
 endobj
 8 0 obj
-<< /Length 7311 >>
+<< /Length 7393 >>
 stream
 1.00 w 0.145 0.388 0.921 rg 0.00 836.00 595.00 6.00 re f
 BT /F2 18.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 40.00 804.00 Tm (Web Development Mid-Term Project) Tj ET
 BT /F2 10.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 40.00 788.00 Tm (CSS Enhancement & Design Decisions Write-up) Tj ET
 BT /F2 9.50 Tf 0.059 0.090 0.165 rg 1 0 0 1 380.00 806.00 Tm (Student: Akshay Hegde) Tj ET
-BT /F2 9.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 380.00 792.00 Tm (Roll No: 25129999) Tj ET
+BT /F2 9.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 380.00 792.00 Tm (Roll No: 26120143) Tj ET
 BT /F1 8.50 Tf 0.392 0.455 0.545 rg 1 0 0 1 380.00 778.00 Tm (Date: November 2026) Tj ET
 1.00 w 0.886 0.910 0.941 RG 40.00 770.00 m 555.00 770.00 l S
 1.20 w 0.749 0.859 0.996 RG 0.937 0.965 1.000 rg 40.00 706.00 515.00 54.00 re B
@@ -41,8 +41,9 @@ BT /F2 11.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 682.00 Tm (1. Executive Summa
 BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 666.00 Tm (The objective of this assignment was to apply modern CSS fundamentals to transform an initial semantic HTML personal) Tj ET
 BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 654.80 Tm (resume into an executive-grade, fully responsive portfolio website. The site showcases my professional journey as an) Tj ET
 BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 643.60 Tm (AI FinTech Founder & Product Strategist \(Founder & CEO @ FinnDot, Ex-CEO @ Anomapro - acquired by Watad Group,) Tj ET
-BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 632.40 Tm (Ex-Product Manager @ Chara, and IIM Bangalore FinTech alumnus\). The implementation centers on establishing high visual) Tj ET
-BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 621.20 Tm (hierarchy, responsive grid positioning, custom CSS variables, and fluid readability across devices.) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 632.40 Tm (Ex-Product Manager @ Chara, and currently studying BBA DBE at IIM Bangalore\). The implementation centers on) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 621.20 Tm (establishing high visual hierarchy, responsive grid positioning, custom CSS variables, and fluid readability across) Tj ET
+BT /F1 8.50 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 610.00 Tm (devices.) Tj ET
 1.00 w 0.145 0.388 0.921 rg 40.00 584.00 4.00 13.00 re f
 BT /F2 11.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 586.00 Tm (2. Key Improvements & CSS Concepts Applied) Tj ET
 0.80 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 498.00 250.00 74.00 re B
@@ -97,12 +98,12 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 595.0 842.0] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R /F4 6 0 R >> >> /Contents 10 0 R >>
 endobj
 10 0 obj
-<< /Length 7204 >>
+<< /Length 7244 >>
 stream
 1.00 w 0.145 0.388 0.921 rg 0.00 836.00 595.00 6.00 re f
 BT /F2 13.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 40.00 808.00 Tm (Web Development Mid-Term Project) Tj ET
 BT /F2 9.50 Tf 0.145 0.388 0.921 rg 1 0 0 1 40.00 794.00 Tm (Section-by-Section Architecture & Design Decisions) Tj ET
-BT /F1 8.50 Tf 0.392 0.455 0.545 rg 1 0 0 1 420.00 800.00 Tm (Roll No: 25129999 • Akshay Hegde) Tj ET
+BT /F1 8.50 Tf 0.392 0.455 0.545 rg 1 0 0 1 420.00 800.00 Tm (Roll No: 26120143 • Akshay Hegde) Tj ET
 1.00 w 0.886 0.910 0.941 RG 40.00 784.00 m 555.00 784.00 l S
 1.00 w 0.145 0.388 0.921 rg 40.00 762.00 4.00 13.00 re f
 BT /F2 11.00 Tf 0.059 0.090 0.165 rg 1 0 0 1 48.00 764.00 Tm (4. Section-by-Section Architecture & Design Decisions) Tj ET
@@ -131,9 +132,9 @@ BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 486.00 Tm (Presents strategic 
 BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 475.80 Tm (progress bars. Accompanied by a flex-wrapping tag cloud \(.cloud-badge\) with interactive pill-shaped hover effects.) Tj ET
 0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 396.00 515.00 54.00 re B
 BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 438.00 Tm (Education & Credentials \(#education\)) Tj ET
-BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 426.00 Tm (Features the prestigious Executive FinTech Programme at IIM Bangalore and B.E. at DSCE Bangalore, accompanied by verified) Tj ET
-BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 415.80 Tm (badges for Google Certified Associate Android Developer, MATLAB Onramp, and published scientific research on Assistive) Tj ET
-BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 405.60 Tm (Devices.) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 426.00 Tm (Features the BBA in Digital Business and Entrepreneurship \(BBA DBE\) at IIM Bangalore \(currently studying\) and B.E. at DSCE) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 415.80 Tm (Bangalore, accompanied by verified badges for Google Certified Associate Android Developer, MATLAB Onramp, and published) Tj ET
+BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 405.60 Tm (scientific research on Assistive Devices.) Tj ET
 0.70 w 0.886 0.910 0.941 RG 0.973 0.980 0.988 rg 40.00 336.00 515.00 54.00 re B
 BT /F2 8.80 Tf 0.059 0.090 0.165 rg 1 0 0 1 50.00 378.00 Tm (Contact & Interactive Form \(#contact\)) Tj ET
 BT /F1 7.80 Tf 0.200 0.255 0.333 rg 1 0 0 1 50.00 366.00 Tm (A split-column layout providing direct communication pills \(Email, LinkedIn, GitHub\) alongside a responsive form. Form) Tj ET
@@ -150,7 +151,7 @@ BT /F1 8.20 Tf 0.200 0.255 0.333 rg 1 0 0 1 40.00 223.60 Tm (semantic structure 
 1.00 w 0.655 0.922 0.765 RG 0.941 0.988 0.957 rg 40.00 160.00 515.00 48.00 re B
 BT /F2 8.00 Tf 0.024 0.373 0.275 rg 1 0 0 1 52.00 192.00 Tm (SUBMISSION CHECKLIST & VERIFICATION) Tj ET
 BT /F1 8.00 Tf 0.059 0.255 0.188 rg 1 0 0 1 52.00 178.00 Tm ([X] Live Link included   [X] GitHub Repo included   [X] Design decisions explained   [X] Responsive CSS validated) Tj ET
-BT /F2 7.80 Tf 0.024 0.373 0.275 rg 1 0 0 1 52.00 166.00 Tm (File Name: 25129999_WD_MTProject.pdf   |   Roll Number: 25129999   |   Submission Mode: Computer Browser PDF) Tj ET
+BT /F2 7.80 Tf 0.024 0.373 0.275 rg 1 0 0 1 52.00 166.00 Tm (File Name: 26120143_WD_MTProject.pdf   |   Roll Number: 26120143   |   Submission Mode: Computer Browser PDF) Tj ET
 0.80 w 0.886 0.910 0.941 RG 40.00 45.00 m 555.00 45.00 l S
 BT /F1 8.00 Tf 0.584 0.647 0.722 rg 1 0 0 1 40.00 32.00 Tm (Web Development Mid-Term Project • Personal Resume Enhancement) Tj ET
 BT /F2 8.00 Tf 0.584 0.647 0.722 rg 1 0 0 1 500.00 32.00 Tm (Page 2 of 2) Tj ET
@@ -167,10 +168,10 @@ xref
 0000000431 00000 n 
 0000000526 00000 n 
 0000000686 00000 n 
-0000008049 00000 n 
-0000008210 00000 n 
+0000008131 00000 n 
+0000008292 00000 n 
 trailer
 << /Size 11 /Root 1 0 R >>
 startxref
-15467
+15589
 %%EOF

@@ -194,7 +194,7 @@ class PageBuilder:
         return "\n".join(self.commands)
 
 
-def build_submission_pdf(roll_no="25129999", filename=None):
+def build_submission_pdf(roll_no="26120143", filename=None):
     if filename is None:
         filename = f"{roll_no}_WD_MTProject.pdf"
         
@@ -238,7 +238,7 @@ def build_submission_pdf(roll_no="25129999", filename=None):
         "semantic HTML personal resume into an executive-grade, fully responsive portfolio website. "
         "The site showcases my professional journey as an AI FinTech Founder & Product Strategist "
         "(Founder & CEO @ FinnDot, Ex-CEO @ Anomapro - acquired by Watad Group, Ex-Product Manager @ Chara, "
-        "and IIM Bangalore FinTech alumnus). The implementation centers on establishing high visual "
+        "and currently studying BBA DBE at IIM Bangalore). The implementation centers on establishing high visual "
         "hierarchy, responsive grid positioning, custom CSS variables, and fluid readability across devices."
     )
     p1.draw_wrapped_text(40, 666, 515, summary_text, font="/F1", size=8.5, color=(0.2, 0.255, 0.333), line_height=11.2)
@@ -329,7 +329,7 @@ def build_submission_pdf(roll_no="25129999", filename=None):
          "Presents strategic business development and customer data intelligence using customized progress meters with gradient progress bars. Accompanied by a flex-wrapping tag cloud (.cloud-badge) with interactive pill-shaped hover effects."),
          
         ("Education & Credentials (#education)", 
-         "Features the prestigious Executive FinTech Programme at IIM Bangalore and B.E. at DSCE Bangalore, accompanied by verified badges for Google Certified Associate Android Developer, MATLAB Onramp, and published scientific research on Assistive Devices."),
+         "Features the BBA in Digital Business and Entrepreneurship (BBA DBE) at IIM Bangalore (currently studying) and B.E. at DSCE Bangalore, accompanied by verified badges for Google Certified Associate Android Developer, MATLAB Onramp, and published scientific research on Assistive Devices."),
          
         ("Contact & Interactive Form (#contact)", 
          "A split-column layout providing direct communication pills (Email, LinkedIn, GitHub) alongside a responsive form. Form inputs feature custom focus rings (box-shadow: 0 0 0 3px rgba(37,99,235,0.15)) and accessible contrast ratios.")
@@ -376,6 +376,6 @@ def build_submission_pdf(roll_no="25129999", filename=None):
     return filename
 
 if __name__ == "__main__":
-    roll = sys.argv[1] if len(sys.argv) > 1 else "25129999"
+    roll = sys.argv[1] if len(sys.argv) > 1 else "26120143"
     out_name = f"{roll}_WD_MTProject.pdf"
     build_submission_pdf(roll, out_name)

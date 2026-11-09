@@ -100,3 +100,4 @@ python3 generate_pdf.py 25129999
 This will create `25129999_WD_MTProject.pdf` (strictly 2 pages, containing the live link, repo link, write-up of CSS improvements, and section-by-section design rationale).
 
 Alternatively, you can open `submission_report.html` in your desktop browser and click **Print / Save as PDF**.
+
