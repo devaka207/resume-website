@@ -495,6 +495,41 @@ button, input, textarea {
   box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
 }
 
+.btn-download {
+  background: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+  color: var(--text-inverse) !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.28);
+}
+
+.btn-download:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(14, 165, 233, 0.4);
+  color: var(--text-inverse) !important;
+}
+
+.nav-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: rgba(37, 99, 235, 0.08);
+  color: var(--color-brand) !important;
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  transition: all var(--transition-fast);
+}
+
+.nav-download::after {
+  display: none !important;
+}
+
+.nav-download:hover {
+  background-color: var(--color-brand);
+  color: var(--text-inverse) !important;
+  transform: translateY(-1px);
+}
+
 .btn-secondary {
   background-color: var(--color-primary-light);
   color: var(--text-inverse);

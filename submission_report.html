@@ -252,12 +252,18 @@
 
   <div class="report-wrapper">
 
-    <!-- Interactive Banner for browser printing -->
+    <!-- Interactive Banner for browser printing & direct download -->
     <div class="print-banner no-print">
       <div>
-        <strong>Mid-Term Project Submission Document</strong> (1–2 Pages PDF)
+        <strong>Mid-Term Project Submission Document</strong> (Roll No: 26120143)
       </div>
-      <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+      <div style="display: flex; gap: 8px;">
+        <a href="26120143_WD_MTProject.pdf" download="26120143_WD_MTProject.pdf" class="print-btn" style="text-decoration:none; display:inline-flex; align-items:center; gap:6px; background-color: #10b981;">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Download 26120143_WD_MTProject.pdf</span>
+        </a>
+        <button class="print-btn" onclick="window.print()">Print / Save as PDF</button>
+      </div>
     </div>
 
     <!-- Document Header -->
